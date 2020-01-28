@@ -1,5 +1,24 @@
-# Ignore list for Eagle, a PCB layout tool
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
 
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
+### Eagle ###
 # Backup files
 *.s#?
 *.b#?
@@ -17,6 +36,7 @@ eagle.epf
 # Autorouter files
 *.pro
 *.job
+*.bga
 
 # CAM files
 *.$$$
@@ -49,3 +69,4 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
+
