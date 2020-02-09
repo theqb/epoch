@@ -1,0 +1,4 @@
+- Add GPIO header
+- Add Neopixels + 5.5V driver
+- Add i2c address shifter?
+- Make P mosfet or something to disconnect batt when USB is powered
